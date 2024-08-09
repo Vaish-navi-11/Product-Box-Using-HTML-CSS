@@ -1,0 +1,78 @@
+html{
+    width: 100%;
+}
+body {
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+.heading{
+    background-color: teal;
+    font-size: 25px;
+    color: white;
+    border: 2px solid white;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 600px;
+}
+.heading h2{
+    padding: 0px 40px;
+}
+.product{
+    position: relative;
+    background-color: bisque;
+    margin: 0 auto;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    margin: 50px auto;
+}
+.product table tr td{
+    border-collapse: separate;
+    border: solid rgb(247, 183, 106);
+    margin: 20px;
+}
+.product img{
+    width: 400px;
+    height: 200px;
+    padding: 0px;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin: 40px 40px 10px 40px;
+}
+.product img:hover{
+    transform: scale(1.1);
+}
+.product h5,.product h6{
+    text-align:center;
+}
+.product h5{
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.product h6{
+    font-size: 20px;
+    margin-top: 0 !important;
+    margin-bottom: 0;
+}
+.product button{
+    display: block;
+    position: relative;
+    margin:10px auto;
+    border: 2px solid rgb(247, 183, 106);
+    border-radius: 20px;
+    background-color: rgb(247, 183, 106);
+    color: white;
+    padding: 5px 10px;
+    font-size: 15px;
+    cursor: pointer;
+    width: 100px;
+}
+.product button:hover{
+    background-color: white;
+    color: rgb(247, 183, 106);
+    cursor: pointer;
+}
